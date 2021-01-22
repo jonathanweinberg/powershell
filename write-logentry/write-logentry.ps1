@@ -2,7 +2,8 @@
 .SYNOPSIS
     Used to export information to a CSV file to represent logging information.
 .DESCRIPTION
-    Original basis \ inspiration for this script is cited in ".NOTES.Inspired By:" below.
+    Original basis \ inspiration for this script is cited in ".NOTES.Inspired By:" below as well as in the license file in this repository.
+
     Main portions of the script that were kept:
         Use of mutexes to allow for the log file to be waited for.
         Interpretation of $Error[0] and breaking it into a readable predictable string value.
