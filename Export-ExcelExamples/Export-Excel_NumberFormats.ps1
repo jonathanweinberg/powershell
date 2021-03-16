@@ -4,7 +4,7 @@ $toWork = Import-Csv -Path "C:\temp\example.csv"
 $toWork | Export-Excel -Path "C:\temp\example.xlsx" -WorksheetName "DataSheet" -FreezeTopRow -BoldTopRow -TableName "Data" -AutoSize -NoNumberConversion *
 $wbk = Open-ExcelPackage -Path "C:\temp\example.xlsx"
 
-$Columns = "1","2","16","18","26","28","40","42","44","52","53","54","55","56","57","58","59","60"
+$Columns = "1","2","16","18","26","28","40","42","43""44","52","53","54","55","56","57","58","59","60"
 
 foreach ($Column in $Columns) {
     if ($Column -ne '43') {
