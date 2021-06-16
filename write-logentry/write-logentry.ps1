@@ -1,6 +1,7 @@
 <#
 .SYNOPSIS
-    Used to export information to a CSV file to represent logging information.
+    Used to export information to a CSV file to represent logging information but also not suffer loss of data when a file is still locked by a previous file access.
+        See this .NET information about waitone: https://docs.microsoft.com/en-us/dotnet/api/system.threading.waithandle.waitone?view=net-5.0
 .DESCRIPTION
     Original basis \ inspiration for this script is cited in ".NOTES.Inspired By:" below as well as in the license file in this repository.
 
